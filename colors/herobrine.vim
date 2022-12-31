@@ -63,7 +63,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi VisualNOS guifg=NONE guibg=#808080 gui=NONE cterm=NONE
   hi LineNr guifg=#808080 guibg=NONE gui=NONE cterm=NONE
   hi FoldColumn guifg=#808080 guibg=NONE gui=NONE cterm=NONE
-  hi CursorLine guifg=NONE guibg=#000000 gui=NONE cterm=NONE
+  hi CursorLine guifg=NONE guibg=#f4f4f4 gui=NONE cterm=NONE
   hi CursorColumn guifg=NONE guibg=#f4f4f4 gui=NONE cterm=NONE
   hi CursorLineNr guifg=NONE guibg=#f4f4f4 gui=NONE cterm=NONE
   hi QuickFixLine guifg=NONE guibg=#e0e4e4 gui=NONE cterm=NONE
@@ -80,7 +80,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Search guifg=#ffffff guibg=#c18401 gui=NONE cterm=NONE
   hi IncSearch guifg=#ffffff guibg=#2a871f gui=NONE cterm=NONE
   hi WildMenu guifg=#ffffff guibg=#c18401 gui=NONE cterm=NONE
-  hi ColorColumn guifg=NONE guibg=#f4f4f4 gui=NONE cterm=NONE
+  hi ColorColumn guifg=NONE guibg=#000000 gui=NONE cterm=NONE
   hi Cursor guifg=#ffffff guibg=#000000 gui=NONE cterm=NONE
   hi lCursor guifg=#000000 guibg=#d75f00 gui=NONE cterm=NONE
   hi DiffAdd guifg=NONE guibg=#c9f9c9 gui=NONE cterm=NONE
