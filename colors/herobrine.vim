@@ -95,7 +95,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Statement guifg=#F300FF guibg=NONE gui=NONE cterm=NONE
   hi Constant guifg=#d75f00 guibg=NONE gui=NONE cterm=NONE
   hi String guifg=#00FF08 guibg=NONE gui=NONE cterm=NONE
-  hi FunctionParameter guifg=#FFCB6B guibg=#FFCB6B gui=NONE cterm=NONE
+  hi Function guifg=#FFCB6B guibg=#FFCB6B gui=NONE cterm=NONE
   hi PreProc guifg=#F300FF guibg=NONE gui=NONE cterm=NONE
   hi Special guifg=#0184bc guibg=NONE gui=NONE cterm=NONE
   hi Tag guifg=#c18401 guibg=NONE gui=NONE cterm=NONE
