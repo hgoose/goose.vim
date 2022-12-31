@@ -17,7 +17,7 @@ let s:t_Co = exists('&t_Co') && !empty(&t_Co) && &t_Co > 1 ? &t_Co : 2
 if (has('termguicolors') && &termguicolors) || has('gui_running')
   let g:terminal_ansi_colors = ['#000000', '#ca1243', '#2a871f', '#c18401',
         \ '#2f6aea', '#a626a4', '#0184bc', '#cacbcc', '#808080', '#ca1243',
-        \ '#2a871f', '#c18401', '#2f6aea', '#a626a4', '#0184bc', '#ffffff']
+        \ '#2a871f', '#c18401', '#2f6aea', '#a626a4', '#0184bc', '#000000']
   if has('nvim')
     let g:terminal_color_0 = '#000000'
     let g:terminal_color_1 = '#ca1243'
@@ -34,12 +34,12 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     let g:terminal_color_12 = '#2f6aea'
     let g:terminal_color_13 = '#a626a4'
     let g:terminal_color_14 = '#0184bc'
-    let g:terminal_color_15 = '#ffffff'
+    let g:terminal_color_15 = '#000000'
   endif
   if get(g:, 'herobrine_transp_bg', 0) && !has('gui_running')
     hi Normal guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   else
-    hi Normal guifg=#ffffff guibg=#000000 gui=NONE cterm=NONE
+    hi Normal guifg=#000000 guibg=#000000 gui=NONE cterm=NONE
   endif
   hi EndOfBuffer guifg=#cacbcc guibg=NONE gui=NONE cterm=NONE
   hi Statusline guifg=#000000 guibg=#cacbcc gui=bold cterm=bold
@@ -53,7 +53,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi PmenuThumb guifg=NONE guibg=#808080 gui=NONE cterm=NONE
   hi TabLine guifg=#808080 guibg=#cacbcc gui=NONE cterm=NONE
   hi TabLineFill guifg=NONE guibg=#cacbcc gui=NONE cterm=NONE
-  hi TabLineSel guifg=NONE guibg=#ffffff gui=NONE cterm=NONE
+  hi TabLineSel guifg=NONE guibg=#000000 gui=NONE cterm=NONE
   hi ToolbarLine guifg=#000000 guibg=#e0e4e4 gui=NONE cterm=NONE
   hi ToolbarButton guifg=NONE guibg=#cacbcc gui=bold cterm=bold
   hi NonText guifg=#cacbcc guibg=NONE gui=NONE cterm=NONE
@@ -69,19 +69,19 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi QuickFixLine guifg=NONE guibg=#e0e4e4 gui=NONE cterm=NONE
   hi SignColumn guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
   hi Underlined guifg=#2f6aea guibg=NONE gui=underline cterm=underline
-  hi Error guifg=#ffffff guibg=#d70000 gui=NONE cterm=NONE
-  hi ErrorMsg guifg=#ffffff guibg=#d70000 gui=NONE cterm=NONE
+  hi Error guifg=#000000 guibg=#d70000 gui=NONE cterm=NONE
+  hi ErrorMsg guifg=#000000 guibg=#d70000 gui=NONE cterm=NONE
   hi ModeMsg guifg=#000000 guibg=NONE gui=bold cterm=bold
   hi WarningMsg guifg=#c18401 guibg=NONE gui=bold cterm=bold
   hi MoreMsg guifg=#2a871f guibg=NONE gui=bold cterm=bold
   hi Question guifg=#2a871f guibg=NONE gui=bold cterm=bold
-  hi Todo guifg=#ffffff guibg=#808080 gui=NONE cterm=NONE
-  hi MatchParen guifg=#ffffff guibg=#0184bc gui=NONE cterm=NONE
-  hi Search guifg=#ffffff guibg=#c18401 gui=NONE cterm=NONE
-  hi IncSearch guifg=#ffffff guibg=#2a871f gui=NONE cterm=NONE
-  hi WildMenu guifg=#ffffff guibg=#c18401 gui=NONE cterm=NONE
+  hi Todo guifg=#000000 guibg=#808080 gui=NONE cterm=NONE
+  hi MatchParen guifg=#000000 guibg=#0184bc gui=NONE cterm=NONE
+  hi Search guifg=#000000 guibg=#c18401 gui=NONE cterm=NONE
+  hi IncSearch guifg=#000000 guibg=#2a871f gui=NONE cterm=NONE
+  hi WildMenu guifg=#000000 guibg=#c18401 gui=NONE cterm=NONE
   hi ColorColumn guifg=NONE guibg=#f4f4f4 gui=NONE cterm=NONE
-  hi Cursor guifg=#ffffff guibg=#000000 gui=NONE cterm=NONE
+  hi Cursor guifg=#000000 guibg=#000000 gui=NONE cterm=NONE
   hi lCursor guifg=#000000 guibg=#d75f00 gui=NONE cterm=NONE
   hi DiffAdd guifg=NONE guibg=#c9f9c9 gui=NONE cterm=NONE
   hi DiffChange guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
@@ -226,7 +226,7 @@ endif
 " Color: special    #0184bc 67
 " Color: delimiter  #986801 94
 " Color: fg0        #000000 16
-" Color: bg0        #ffffff 231
+" Color: bg0        #000000 231
 " Color: bg1        #cacbcc 251
 " Color: folded     #e0e4e4 254
 " Color: cursorline #f4f4f4 254
