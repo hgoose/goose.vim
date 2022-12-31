@@ -39,7 +39,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   if get(g:, 'herobrine_transp_bg', 0) && !has('gui_running')
     hi Normal guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   else
-    hi Normal guifg=NONE guibg=#000000 gui=NONE cterm=NONE
+    hi Normal guifg=#ffffff guibg=#000000 gui=NONE cterm=NONE
   endif
   hi EndOfBuffer guifg=#cacbcc guibg=NONE gui=NONE cterm=NONE
   hi Statusline guifg=#000000 guibg=#cacbcc gui=bold cterm=bold
@@ -48,13 +48,13 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi StatuslineTermNC guifg=#808080 guibg=#cacbcc gui=NONE cterm=NONE
   hi VertSplit guifg=#cacbcc guibg=#cacbcc gui=NONE cterm=NONE
   hi Pmenu guifg=NONE guibg=#cacbcc gui=NONE cterm=NONE
-  hi PmenuSel guifg=#ffffff guibg=#c18401 gui=NONE cterm=NONE
+  hi PmenuSel guifg=NONE guibg=#c18401 gui=NONE cterm=NONE
   hi PmenuSbar guifg=NONE guibg=#cacbcc gui=NONE cterm=NONE
   hi PmenuThumb guifg=NONE guibg=#808080 gui=NONE cterm=NONE
   hi TabLine guifg=#808080 guibg=#cacbcc gui=NONE cterm=NONE
   hi TabLineFill guifg=NONE guibg=#cacbcc gui=NONE cterm=NONE
   hi TabLineSel guifg=NONE guibg=#ffffff gui=NONE cterm=NONE
-  hi ToolbarLine guifg=#ffffff guibg=#e0e4e4 gui=NONE cterm=NONE
+  hi ToolbarLine guifg=NONE guibg=#e0e4e4 gui=NONE cterm=NONE
   hi ToolbarButton guifg=NONE guibg=#cacbcc gui=bold cterm=bold
   hi NonText guifg=#cacbcc guibg=NONE gui=NONE cterm=NONE
   hi SpecialKey guifg=#cacbcc guibg=NONE gui=NONE cterm=NONE
