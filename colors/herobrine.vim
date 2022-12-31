@@ -63,9 +63,9 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi VisualNOS guifg=NONE guibg=#808080 gui=NONE cterm=NONE
   hi LineNr guifg=#808080 guibg=NONE gui=NONE cterm=NONE
   hi FoldColumn guifg=#808080 guibg=NONE gui=NONE cterm=NONE
-  hi CursorLine guifg=NONE guibg=#000000 gui=NONE cterm=NONE
-  hi CursorColumn guifg=NONE guibg=#000000 gui=NONE cterm=NONE
-  hi CursorLineNr guifg=NONE guibg=#F300FF gui=NONE cterm=NONE
+  hi CursorLine guifg=NONE guibg=NONE gui=NONE cterm=NONE
+  hi CursorLineNr guifg=NONE guibg=NONE gui=NONE cterm=NONE
+  hi CursorColumn guifg=NONE guibg=NONE gui=NONE cterm=NONE
   hi QuickFixLine guifg=NONE guibg=#e0e4e4 gui=NONE cterm=NONE
   hi SignColumn guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
   hi Underlined guifg=#2f6aea guibg=NONE gui=underline cterm=underline
