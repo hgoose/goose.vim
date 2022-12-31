@@ -64,8 +64,8 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi LineNr guifg=#808080 guibg=NONE gui=NONE cterm=NONE
   hi FoldColumn guifg=#808080 guibg=NONE gui=NONE cterm=NONE
   hi CursorLine guifg=NONE guibg=#000000 gui=NONE cterm=NONE
-  hi CursorColumn guifg=NONE guibg=#000000 gui=NONE cterm=NONE
-  hi CursorLineNr guifg=NONE guibg=#000000 gui=NONE cterm=NONE
+  hi CursorColumn guifg=NONE guibg=#f4f4f4 gui=NONE cterm=NONE
+  hi CursorLineNr guifg=NONE guibg=#f4f4f4 gui=NONE cterm=NONE
   hi QuickFixLine guifg=NONE guibg=#e0e4e4 gui=NONE cterm=NONE
   hi SignColumn guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
   hi Underlined guifg=#2f6aea guibg=NONE gui=underline cterm=underline
@@ -80,7 +80,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Search guifg=#ffffff guibg=#c18401 gui=NONE cterm=NONE
   hi IncSearch guifg=#ffffff guibg=#2a871f gui=NONE cterm=NONE
   hi WildMenu guifg=#ffffff guibg=#c18401 gui=NONE cterm=NONE
-  hi ColorColumn guifg=NONE guibg=#000000 gui=NONE cterm=NONE
+  hi ColorColumn guifg=NONE guibg=#f4f4f4 gui=NONE cterm=NONE
   hi Cursor guifg=#ffffff guibg=#000000 gui=NONE cterm=NONE
   hi lCursor guifg=#000000 guibg=#d75f00 gui=NONE cterm=NONE
   hi DiffAdd guifg=NONE guibg=#c9f9c9 gui=NONE cterm=NONE
@@ -229,7 +229,7 @@ endif
 " Color: bg0        #ffffff 231
 " Color: bg1        #cacbcc 251
 " Color: folded     #e0e4e4 254
-" Color: cursorline #000000 254
+" Color: cursorline #f4f4f4 254
 " Color: visual     #d0d9ea 153
 " Color: error      #d70000 160
 " Color: diffadd    #c9f9c9 194
