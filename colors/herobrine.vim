@@ -92,7 +92,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi SpellLocal guifg=#0184bc guibg=NONE guisp=#0184bc gui=undercurl cterm=underline
   hi SpellRare guifg=#a626a4 guibg=NONE guisp=#a626a4 gui=undercurl cterm=underline
   hi Identifier guifg=#2f6aea guibg=NONE gui=NONE cterm=NONE
-  hi Statement guifg=#ca1243 guibg=NONE gui=NONE cterm=NONE
+  hi Statement guifg=#F300FF guibg=NONE gui=NONE cterm=NONE
   hi Constant guifg=#d75f00 guibg=NONE gui=NONE cterm=NONE
   hi String guifg=#2a871f guibg=NONE gui=NONE cterm=NONE
   hi PreProc guifg=#F300FF guibg=NONE gui=NONE cterm=NONE
