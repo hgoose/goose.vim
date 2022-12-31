@@ -14,6 +14,10 @@ let g:colors_name = 'herobrine'
 
 let s:t_Co = exists('&t_Co') && !empty(&t_Co) && &t_Co > 1 ? &t_Co : 2
 
+syntax match PythonMethod "\v\w+\s*\(.*\)"
+
+autocmd FileType python call PythonMethod()
+
 if (has('termguicolors') && &termguicolors) || has('gui_running')
   let g:terminal_ansi_colors = ['#000000', '#ca1243', '#2a871f', '#c18401',
         \ '#2f6aea', '#a626a4', '#0184bc', '#cacbcc', '#808080', '#ca1243',
