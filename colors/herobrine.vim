@@ -14,9 +14,7 @@ let g:colors_name = 'herobrine'
 
 let s:t_Co = exists('&t_Co') && !empty(&t_Co) && &t_Co > 1 ? &t_Co : 2
 
-syntax match ethod "\v\w+\s*(?<=\()(?=\))"
-
-
+syntax match thod "\v\w+\s*\(.*\)\ze"
 
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
@@ -102,7 +100,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi String guifg=#00FF08 guibg=NONE gui=NONE cterm=NONE
   " hi Function guifg=#002EFF guibg=NONE gui=NONE cterm=NONE
   " hi PythonMethod guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
-  hi ethod guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
+  hi thod guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
   hi PreProc guifg=#F300FF guibg=NONE gui=NONE cterm=NONE
   hi Special guifg=#0184bc guibg=NONE gui=NONE cterm=NONE
   hi Tag guifg=#c18401 guibg=NONE gui=NONE cterm=NONE
