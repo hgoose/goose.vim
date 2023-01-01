@@ -100,6 +100,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   " hi Function guifg=#002EFF guibg=NONE gui=NONE cterm=NONE
   " hi PythonMethod guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
   hi PythonMethod guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
+  hi Method guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
   hi PreProc guifg=#F300FF guibg=NONE gui=NONE cterm=NONE
   hi Special guifg=#0184bc guibg=NONE gui=NONE cterm=NONE
   hi Tag guifg=#c18401 guibg=NONE gui=NONE cterm=NONE
