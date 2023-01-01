@@ -16,6 +16,9 @@ let s:t_Co = exists('&t_Co') && !empty(&t_Co) && &t_Co > 1 ? &t_Co : 2
 
 syntax on
 
+call matchadd("PythonMethod", "\v\w+\s*\.\ze\(?<=\()[^)]*(?=\))", 101)
+
+
 if (has('termguicolors') && &termguicolors) || has('gui_running')
   let g:terminal_ansi_colors = ['#000000', '#ca1243', '#2a871f', '#c18401',
         \ '#2f6aea', '#a626a4', '#0184bc', '#cacbcc', '#808080', '#ca1243',
@@ -100,7 +103,6 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   " hi Function guifg=#002EFF guibg=NONE gui=NONE cterm=NONE
   " hi PythonMethod guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
   hi PythonMethod guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
-  hi Method guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
   hi PreProc guifg=#F300FF guibg=NONE gui=NONE cterm=NONE
   hi Special guifg=#0184bc guibg=NONE gui=NONE cterm=NONE
   hi Tag guifg=#c18401 guibg=NONE gui=NONE cterm=NONE
