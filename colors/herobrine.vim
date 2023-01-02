@@ -44,7 +44,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   if get(g:, 'herobrine_transp_bg', 0) && !has('gui_running')
     hi Normal guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   else
-    hi Normal guifg=#ffffff guibg=#000000 gui=NONE cterm=NONE
+    hi Normal guifg=#ffffff guibg=#1C1C1C gui=NONE cterm=NONE
   endif
   hi EndOfBuffer guifg=#cacbcc guibg=NONE gui=NONE cterm=NONE
   hi Statusline guifg=#000000 guibg=#cacbcc gui=bold cterm=bold
