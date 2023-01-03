@@ -101,8 +101,9 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Identifier guifg=#E5E5E5 guibg=NONE gui=NONE cterm=NONE
   hi Statement guifg=#F300FF guibg=NONE gui=NONE cterm=NONE
   hi Constant guifg=#d75f00 guibg=NONE gui=NONE cterm=NONE
-  hi String guifg=#00DB2B guibg=NONE gui=NONE cterm=NONE
-  hi pythonFunction guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
+  " hi String guifg=#00DB2B guibg=NONE gui=NONE cterm=NONE
+  hi String guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
+  hi pythonFunction guifg=#45FFC8 guibg=NONE gui=NONE cterm=NONE
   hi method guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
   " hi FunctionCall guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
   hi Function guifg=#45FFC8 guibg=NONE gui=NONE cterm=NONE
