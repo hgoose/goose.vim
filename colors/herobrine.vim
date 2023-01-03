@@ -49,11 +49,12 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     let g:terminal_color_14 = '#0184bc'
     let g:terminal_color_15 = '#ffffff'
   endif
-  if get(g:, 'herobrine_transp_bg', 0) && !has('gui_running')
-    hi Normal guifg=#000000 guibg=NONE gui=NONE cterm=NONE
-  else
-    hi Normal guifg=#ffffff guibg=#0F0F0F gui=NONE cterm=NONE
-  endif
+  
+  " if get(g:, 'herobrine_transp_bg', 0) && !has('gui_running')
+  "   hi Normal guifg=#000000 guibg=NONE gui=NONE cterm=NONE
+  " else
+  "   hi Normal guifg=#ffffff guibg=#0F0F0F gui=NONE cterm=NONE
+  " endif
 
   hi Comment         ctermfg=110  ctermbg=NONE cterm=NONE 
   hi Constant        ctermfg=20   ctermbg=NONE cterm=NONE   
@@ -166,7 +167,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
 "   hi SelectDirectoryPrefix guifg=#808080 guibg=NONE gui=NONE cterm=NONE
 "   unlet s:t_Co
 "   finish
-" endif
+endif
 "
 " if s:t_Co >= 256
 "   if get(g:, 'polar_transp_bg', 0)
