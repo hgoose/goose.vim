@@ -18,7 +18,7 @@ syntax on
 
 call matchadd("Py", "\v\w+\s*\.\ze\(?<=\()[^)]*(?=\))", 101)
 
-syntax match FunctionCall /()\h\w*(/
+syntax match FunctionCall /(\h\w*(/
 " syntax match FunctionCall /(?<!\()\h\w*(/
 " syntax match FunctionCall /(?<!\h)\w*(/
 " syntax match FunctionCall /\h\w*(?=\s*(?!\)))/
