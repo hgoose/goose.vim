@@ -48,7 +48,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   endif
   hi EndOfBuffer guifg=#cacbcc guibg=NONE gui=NONE cterm=NONE
   hi Statusline guifg=#000000 guibg=#cacbcc gui=bold cterm=bold
-  hi StatuslineNC guifg=#0F0F0F guibg=#cacbcc gui=NONE cterm=NONE
+  hi StatuslineNC guifg=#808080 guibg=#cacbcc gui=NONE cterm=NONE
   hi StatuslineTerm guifg=#000000 guibg=#cacbcc gui=bold cterm=bold
   hi StatuslineTermNC guifg=#808080 guibg=#cacbcc gui=NONE cterm=NONE
   hi VertSplit guifg=#cacbcc guibg=#cacbcc gui=NONE cterm=NONE
@@ -65,7 +65,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi SpecialKey guifg=#cacbcc guibg=NONE gui=NONE cterm=NONE
   hi Folded guifg=#808080 guibg=#e0e4e4 gui=NONE cterm=NONE
   hi Visual guifg=NONE guibg=#d0d9ea gui=NONE cterm=NONE
-  hi VisualNOS guifg=NONE guibg=#808080 gui=NONE cterm=NONE
+  hi VisualNOS guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
   hi LineNr guifg=#808080 guibg=NONE gui=NONE cterm=NONE
   hi FoldColumn guifg=#808080 guibg=NONE gui=NONE cterm=NONE
   hi CursorLine guifg=NONE guibg=NONE gui=NONE cterm=NONE
