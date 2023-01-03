@@ -52,7 +52,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi VertSplit guifg=#cacbcc guibg=NONE gui=NONE cterm=NONE
   hi Pmenu guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
   hi PmenuSel guifg=#ffffff guibg=#c18401 gui=NONE cterm=NONE
-  hi PmenuSbar guifg=NONE guibg=#cacbcc gui=NONE cterm=NONE
+  hi PmenuSbar guifg=NONE guibg=NONE gui=NONE cterm=NONE
   hi PmenuThumb guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
   hi TabLine guifg=#808080 guibg=NONE gui=NONE cterm=NONE
   hi TabLineFill guifg=NONE guibg=NONE gui=NONE cterm=NONE
