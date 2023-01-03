@@ -55,7 +55,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Pmenu guifg=NONE guibg=#cacbcc gui=NONE cterm=NONE
   hi PmenuSel guifg=#ffffff guibg=#c18401 gui=NONE cterm=NONE
   hi PmenuSbar guifg=NONE guibg=#cacbcc gui=NONE cterm=NONE
-  hi PmenuThumb guifg=NONE guibg=#808080 gui=NONE cterm=NONE
+  hi PmenuThumb guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
   hi TabLine guifg=#808080 guibg=#cacbcc gui=NONE cterm=NONE
   hi TabLineFill guifg=NONE guibg=#cacbcc gui=NONE cterm=NONE
   hi TabLineSel guifg=NONE guibg=#ffffff gui=NONE cterm=NONE
