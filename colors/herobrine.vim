@@ -16,19 +16,6 @@ let s:t_Co = exists('&t_Co') && !empty(&t_Co) && &t_Co > 1 ? &t_Co : 2
 
 syntax on
 
-call matchadd("Py", "\v\w+\s*\.\ze\(?<=\()[^)]*(?=\))", 101)
-
-" syntax match FunctionCall /\h\w*(/
-" syntax match FunctionCall /(?<!\(\)\h\w*\s*\(/
-" syntax match FunctionCall /(?<!\()\h\w*(/
-" syntax match FunctionCall /(?<!\h)\w*(/
-" syntax match FunctionCall /\h\w*(?=\s*(?!\)))/
-" syntax match FunctionCall /\h\w*\(?=\s*(?!\))\//
-" syntax match FunctionCall /\h\w*\s*\(/
-
-syntax match PythonArg /(.*\,\s*\zs\w\+\ze\s*=.*)/
-
-
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
   let g:terminal_ansi_colors = ['#000000', '#ca1243', '#2a871f', '#c18401',
@@ -150,21 +137,6 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   finish
 endif
 
-  hi semshiLocal           ctermfg=209 guifg=#ff875f
-  hi semshiGlobal          ctermfg=214 guifg=#ffaf00
-  hi semshiImported        ctermfg=214 guifg=#ffaf00 cterm=bold gui=bold
-  hi semshiParameter       ctermfg=75  guifg=#5fafff
-  hi semshiParameterUnused ctermfg=117 guifg=#87d7ff cterm=underline gui=underline
-  hi semshiFree            ctermfg=218 guifg=#ffafd7
-  hi semshiBuiltin         ctermfg=207 guifg=#ff5fff
-  hi semshiAttribute       ctermfg=49  guifg=#00ffaf
-  hi semshiSelf            ctermfg=249 guifg=#b2b2b2
-  hi semshiUnresolved      ctermfg=226 guifg=#ffff00 cterm=underline gui=underline
-  hi semshiSelected        ctermfg=231 guifg=#ffffff ctermbg=161 guibg=#d7005f
-
-  hi semshiErrorSign       ctermfg=231 guifg=#ffffff ctermbg=160 guibg=#d70000
-  hi semshiErrorChar       ctermfg=231 guifg=#ffffff ctermbg=160 guibg=#d70000
-  sign define semshiError text=E> texthl=semshiErrorSign
 
 " Background: light
 " Color: comment    #808080 244
