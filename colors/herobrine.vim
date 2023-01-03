@@ -19,7 +19,9 @@ syntax on
 call matchadd("Py", "\v\w+\s*\.\ze\(?<=\()[^)]*(?=\))", 101)
 
 " syntax match FunctionCall /\h\w*(/
-syntax match FunctionCall /\h\w*(?=\s*(?!\)))/
+" syntax match FunctionCall /\h\w*(?=\s*(?!\)))/
+syntax match FunctionCall /\h\w*\(?=\s*(?!\))\//
+
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
   let g:terminal_ansi_colors = ['#000000', '#ca1243', '#2a871f', '#c18401',
