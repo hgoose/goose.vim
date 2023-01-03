@@ -64,7 +64,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi NonText guifg=#0f0f0f guibg=NONE gui=NONE cterm=NONE
   hi SpecialKey guifg=#0f0f0f guibg=NONE gui=NONE cterm=NONE
   hi Folded guifg=#808080 guibg=#e0e4e4 gui=NONE cterm=NONE
-  hi Visual guifg=NONE guibg=NONE gui=NONE cterm=NONE
+  hi Visual guifg=NONE guibg=#0184bc gui=NONE cterm=NONE
   hi VisualNOS guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
   hi LineNr guifg=#808080 guibg=NONE gui=NONE cterm=NONE
   hi FoldColumn guifg=#808080 guibg=NONE gui=NONE cterm=NONE
