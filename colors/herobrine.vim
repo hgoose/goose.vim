@@ -44,16 +44,12 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   else
     hi Normal guifg=#ffffff guibg=#0F0F0F gui=NONE cterm=NONE
   endif
-
-
-
-
   hi EndOfBuffer guifg=#cacbcc guibg=NONE gui=NONE cterm=NONE
   hi Statusline guifg=#000000 guibg=NONE gui=bold cterm=bold
   hi StatuslineNC guifg=#808080 guibg=NONE gui=NONE cterm=NONE
   hi StatuslineTerm guifg=#000000 guibg=NONE gui=bold cterm=bold
   hi StatuslineTermNC guifg=#808080 guibg=NONE gui=NONE cterm=NONE
-  hi VertSplit guifg=#cacbcc guibg=#cacbcc gui=NONE cterm=NONE
+  hi VertSplit guifg=#cacbcc guibg=NONE gui=NONE cterm=NONE
   hi Pmenu guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
   hi PmenuSel guifg=#ffffff guibg=#c18401 gui=NONE cterm=NONE
   hi PmenuSbar guifg=NONE guibg=#cacbcc gui=NONE cterm=NONE
