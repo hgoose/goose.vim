@@ -52,27 +52,27 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi StatuslineTerm guifg=#000000 guibg=#0f0f0f gui=bold cterm=bold
   hi StatuslineTermNC guifg=#808080 guibg=#0f0f0f gui=NONE cterm=NONE
   hi VertSplit guifg=#0f0f0f guibg=#cacbcc gui=NONE cterm=NONE
-  hi Pmenu guifg=#f300ff guibg=#0f0f0f gui=NONE cterm=NONE
+  hi Pmenu guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
   hi PmenuSel guifg=#ffffff guibg=#c18401 gui=NONE cterm=NONE
-  hi PmenuSbar guifg=#f300ff guibg=#0f0f0f gui=NONE cterm=NONE
-  hi PmenuThumb guifg=#f300ff guibg=#0f0f0f gui=NONE cterm=NONE
+  hi PmenuSbar guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
+  hi PmenuThumb guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
   hi TabLine guifg=#808080 guibg=#0f0f0f gui=NONE cterm=NONE
-  hi TabLineFill guifg=#f300ff guibg=#0f0f0f gui=NONE cterm=NONE
-  hi TabLineSel guifg=#f300ff guibg=#ffffff gui=NONE cterm=NONE
+  hi TabLineFill guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
+  hi TabLineSel guifg=NONE guibg=#ffffff gui=NONE cterm=NONE
   hi ToolbarLine guifg=#ffffff guibg=#e0e4e4 gui=NONE cterm=NONE
-  hi ToolbarButton guifg=#f300ff guibg=#0f0f0f gui=bold cterm=bold
+  hi ToolbarButton guifg=NONE guibg=#0f0f0f gui=bold cterm=bold
   hi NonText guifg=#0f0f0f guibg=NONE gui=NONE cterm=NONE
   hi SpecialKey guifg=#0f0f0f guibg=NONE gui=NONE cterm=NONE
   hi Folded guifg=#808080 guibg=#e0e4e4 gui=NONE cterm=NONE
-  hi Visual guifg=#f300ff guibg=#0184bc gui=NONE cterm=NONE
-  hi VisualNOS guifg=#f300ff guibg=#0f0f0f gui=NONE cterm=NONE
+  hi Visual guifg=NONE guibg=#0184bc gui=NONE cterm=NONE
+  hi VisualNOS guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
   hi LineNr guifg=#808080 guibg=NONE gui=NONE cterm=NONE
   hi FoldColumn guifg=#808080 guibg=NONE gui=NONE cterm=NONE
-  hi CursorLine guifg=#f300ff guibg=NONE gui=NONE cterm=NONE
-  hi CursorLineNr guifg=#f300ff guibg=NONE gui=NONE cterm=NONE
-  hi CursorColumn guifg=#f300ff guibg=NONE gui=NONE cterm=NONE
-  hi QuickFixLine guifg=#f300ff guibg=#e0e4e4 gui=NONE cterm=NONE
-  hi SignColumn guifg=#f300ff guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi CursorLine guifg=NONE guibg=NONE gui=NONE cterm=NONE
+  hi CursorLineNr guifg=NONE guibg=NONE gui=NONE cterm=NONE
+  hi CursorColumn guifg=NONE guibg=NONE gui=NONE cterm=NONE
+  hi QuickFixLine guifg=NONE guibg=#e0e4e4 gui=NONE cterm=NONE
+  hi SignColumn guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
   hi Underlined guifg=#2f6aea guibg=NONE gui=underline cterm=underline
   hi Error guifg=#ffffff guibg=#d70000 gui=NONE cterm=NONE
   hi ErrorMsg guifg=#ffffff guibg=#d70000 gui=NONE cterm=NONE
@@ -85,13 +85,13 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Search guifg=#ffffff guibg=#c18401 gui=NONE cterm=NONE
   hi IncSearch guifg=#ffffff guibg=#2a871f gui=NONE cterm=NONE
   hi WildMenu guifg=#ffffff guibg=#c18401 gui=NONE cterm=NONE
-  hi ColorColumn guifg=#f300ff guibg=#f4f4f4 gui=NONE cterm=NONE
+  hi ColorColumn guifg=NONE guibg=#f4f4f4 gui=NONE cterm=NONE
   " hi Cursor guifg=#ffffff guibg=#000000 gui=NONE cterm=NONE
   hi Cursor guifg=#f300ff guibg=#000000 gui=NONE cterm=NONE
   hi lCursor guifg=#000000 guibg=#d75f00 gui=NONE cterm=NONE
-  hi DiffAdd guifg=#f300ff guibg=#c9f9c9 gui=NONE cterm=NONE
-  hi DiffChange guifg=#f300ff guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi DiffText guifg=#f300ff guibg=#f9f9c9 gui=NONE cterm=NONE
+  hi DiffAdd guifg=NONE guibg=#c9f9c9 gui=NONE cterm=NONE
+  hi DiffChange guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi DiffText guifg=NONE guibg=#f9f9c9 gui=NONE cterm=NONE
   hi DiffDelete guifg=#f9c9c9 guibg=NONE gui=NONE cterm=NONE
   hi SpellBad guifg=#ca1243 guibg=NONE guisp=#ca1243 gui=undercurl cterm=underline
   hi SpellCap guifg=#2a871f guibg=NONE guisp=#2a871f gui=undercurl cterm=underline
@@ -113,7 +113,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Directory guifg=#2f6aea guibg=NONE gui=bold cterm=bold
   hi Comment guifg=#808080 guibg=NONE gui=NONE cterm=NONE
   hi Conceal guifg=#808080 guibg=NONE gui=NONE cterm=NONE
-  hi Ignore guifg=#f300ff guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Ignore guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
   hi Title guifg=#ca1243 guibg=NONE gui=bold cterm=bold
   hi qfError guifg=#d70000 guibg=NONE gui=NONE cterm=NONE
   hi! link colortemplateKey Statement
