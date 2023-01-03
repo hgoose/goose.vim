@@ -119,8 +119,8 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Ignore guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
   hi Title guifg=#ca1243 guibg=NONE gui=bold cterm=bold
   hi qfError guifg=#d70000 guibg=NONE gui=NONE cterm=NONE
-  hi pythonBooleanTrue guifg=#d70000 guibg=NONE gui=NONE cterm=NONE
-  hi pythonBooleanFalse guifg=#d70000 guibg=NONE gui=NONE cterm=NONE
+  hi pythonBooleanTrue guifg=red guibg=NONE gui=NONE cterm=NONE
+  hi pythonBooleanFalse guifg=red guibg=NONE gui=NONE cterm=NONE
   hi! link colortemplateKey Statement
   hi! link colortemplateAttr String
   hi! link vimNotation Type
