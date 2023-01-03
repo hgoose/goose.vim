@@ -14,7 +14,8 @@ let g:colors_name = 'herobrine'
 
 let s:t_Co = exists('&t_Co') && !empty(&t_Co) && &t_Co > 1 ? &t_Co : 2
 
-syntax on
+" syntax on
+syntax enable
 
 call matchadd("Py", "\v\w+\s*\.\ze\(?<=\()[^)]*(?=\))", 101)
 
