@@ -18,6 +18,7 @@ syntax on
 
 call matchadd("Py", "\v\w+\s*\.\ze\(?<=\()[^)]*(?=\))", 101)
 
+syntax match FunctionCall /\h\w*(/
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
   let g:terminal_ansi_colors = ['#000000', '#ca1243', '#2a871f', '#c18401',
@@ -46,6 +47,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   else
     hi Normal guifg=#ffffff guibg=#0F0F0F gui=NONE cterm=NONE
   endif
+  hi FunctionCall
   hi EndOfBuffer guifg=#cacbcc guibg=NONE gui=NONE cterm=NONE
   hi Statusline guifg=#000000 guibg=#cacbcc gui=bold cterm=bold
   hi StatuslineNC guifg=#808080 guibg=#cacbcc gui=NONE cterm=NONE
@@ -102,6 +104,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi String guifg=#00DB2B guibg=NONE gui=NONE cterm=NONE
   hi Py guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
   hi pythonFunction guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
+  hi FunctionCall ctermfg=#FFCB6B guifg=#FFCB6B ctermbg=NONE guibg=NONE gui=NONE cterm=NONE
   hi Function guifg=#2535FF guibg=NONE gui=NONE cterm=NONE
   hi PreProc guifg=#F300FF guibg=NONE gui=NONE cterm=NONE
   hi Special guifg=#0184bc guibg=NONE gui=NONE cterm=NONE
