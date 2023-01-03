@@ -41,12 +41,11 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     let g:terminal_color_14 = '#0184bc'
     let g:terminal_color_15 = '#ffffff'
   endif
-  " if get(g:, 'herobrine_transp_bg', 0) && !has('gui_running')
-  "   hi Normal guifg=#000000 guibg=NONE gui=NONE cterm=NONE
-  " else
-  "   hi Normal guifg=#ffffff guibg=#0F0F0F gui=NONE cterm=NONE
+  if get(g:, 'herobrine_transp_bg', 0) && !has('gui_running')
+    hi Normal guifg=#000000 guibg=NONE gui=NONE cterm=NONE
+  else
+    hi Normal guifg=NONE guibg=#0F0F0F gui=NONE cterm=NONE
   endif
-  hi Normal guifg=#ffffff guibg=#0F0F0F gui=NONE cterm=NONE
   hi EndOfBuffer guifg=#cacbcc guibg=NONE gui=NONE cterm=NONE
   hi Statusline guifg=#000000 guibg=#cacbcc gui=bold cterm=bold
   hi StatuslineNC guifg=#808080 guibg=#cacbcc gui=NONE cterm=NONE
