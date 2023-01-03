@@ -104,7 +104,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi pythonFunction guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
   hi Function guifg=#2535FF guibg=NONE gui=NONE cterm=NONE
   hi PreProc guifg=#F300FF guibg=NONE gui=NONE cterm=NONE
-  hi Special guifg=#FF2525 guibg=NONE gui=NONE cterm=NONE
+  hi Special guifg=#0184bc guibg=NONE gui=NONE cterm=NONE
   hi Tag guifg=#c18401 guibg=NONE gui=NONE cterm=NONE
   hi Delimiter guifg=#986801 guibg=NONE gui=NONE cterm=NONE
   hi Type guifg=#a626a4 guibg=NONE gui=NONE cterm=NONE
