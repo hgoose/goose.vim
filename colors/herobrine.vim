@@ -42,11 +42,11 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     let g:terminal_color_15 = '#ffffff'
   endif
   if get(g:, 'herobrine_transp_bg', 0) && !has('gui_running')
-    hi Normal guifg=#000000 guibg=NONE gui=NONE cterm=NONE
+    hi Normal guifg=#000000 guibg=#F300FF gui=NONE cterm=NONE
   else
     hi Normal guifg=#ffffff guibg=#0F0F0F gui=NONE cterm=NONE
   endif
-  hi EndOfBuffer guifg=#0f0f0f guibg=NONE gui=NONE cterm=NONE
+  hi EndOfBuffer guifg=#0f0f0f guibg=#F300FF gui=NONE cterm=NONE
   hi Statusline guifg=#000000 guibg=#0f0f0f gui=bold cterm=bold
   hi StatuslineNC guifg=#808080 guibg=#0f0f0f gui=NONE cterm=NONE
   hi StatuslineTerm guifg=#000000 guibg=#0f0f0f gui=bold cterm=bold
@@ -61,25 +61,25 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi TabLineSel guifg=NONE guibg=#ffffff gui=NONE cterm=NONE
   hi ToolbarLine guifg=#ffffff guibg=#e0e4e4 gui=NONE cterm=NONE
   hi ToolbarButton guifg=NONE guibg=#0f0f0f gui=bold cterm=bold
-  hi NonText guifg=#0f0f0f guibg=NONE gui=NONE cterm=NONE
-  hi SpecialKey guifg=#0f0f0f guibg=NONE gui=NONE cterm=NONE
+  hi NonText guifg=#0f0f0f guibg=#F300FF gui=NONE cterm=NONE
+  hi SpecialKey guifg=#0f0f0f guibg=#F300FF gui=NONE cterm=NONE
   hi Folded guifg=#808080 guibg=#e0e4e4 gui=NONE cterm=NONE
   hi Visual guifg=NONE guibg=#0184bc gui=NONE cterm=NONE
   hi VisualNOS guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
-  hi LineNr guifg=#808080 guibg=NONE gui=NONE cterm=NONE
-  hi FoldColumn guifg=#808080 guibg=NONE gui=NONE cterm=NONE
-  hi CursorLine guifg=NONE guibg=NONE gui=NONE cterm=NONE
-  hi CursorLineNr guifg=NONE guibg=NONE gui=NONE cterm=NONE
-  hi CursorColumn guifg=NONE guibg=NONE gui=NONE cterm=NONE
+  hi LineNr guifg=#808080 guibg=#F300FF gui=NONE cterm=NONE
+  hi FoldColumn guifg=#808080 guibg=#F300FF gui=NONE cterm=NONE
+  hi CursorLine guifg=NONE guibg=#F300FF gui=NONE cterm=NONE
+  hi CursorLineNr guifg=NONE guibg=#F300FF gui=NONE cterm=NONE
+  hi CursorColumn guifg=NONE guibg=#F300FF gui=NONE cterm=NONE
   hi QuickFixLine guifg=NONE guibg=#e0e4e4 gui=NONE cterm=NONE
-  hi SignColumn guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi Underlined guifg=#2f6aea guibg=NONE gui=underline cterm=underline
+  hi SignColumn guifg=NONE guibg=#F300FF gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Underlined guifg=#2f6aea guibg=#F300FF gui=underline cterm=underline
   hi Error guifg=#ffffff guibg=#d70000 gui=NONE cterm=NONE
   hi ErrorMsg guifg=#ffffff guibg=#d70000 gui=NONE cterm=NONE
-  hi ModeMsg guifg=#000000 guibg=NONE gui=bold cterm=bold
-  hi WarningMsg guifg=#c18401 guibg=NONE gui=bold cterm=bold
-  hi MoreMsg guifg=#2a871f guibg=NONE gui=bold cterm=bold
-  hi Question guifg=#2a871f guibg=NONE gui=bold cterm=bold
+  hi ModeMsg guifg=#000000 guibg=#F300FF gui=bold cterm=bold
+  hi WarningMsg guifg=#c18401 guibg=#F300FF gui=bold cterm=bold
+  hi MoreMsg guifg=#2a871f guibg=#F300FF gui=bold cterm=bold
+  hi Question guifg=#2a871f guibg=#F300FF gui=bold cterm=bold
   hi Todo guifg=#ffffff guibg=#808080 gui=NONE cterm=NONE
   hi MatchParen guifg=#ffffff guibg=#0184bc gui=NONE cterm=NONE
   hi Search guifg=#ffffff guibg=#c18401 gui=NONE cterm=NONE
@@ -90,32 +90,32 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Cursor guifg=#f300ff guibg=#000000 gui=NONE cterm=NONE
   hi lCursor guifg=#000000 guibg=#d75f00 gui=NONE cterm=NONE
   hi DiffAdd guifg=NONE guibg=#c9f9c9 gui=NONE cterm=NONE
-  hi DiffChange guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi DiffChange guifg=NONE guibg=#F300FF gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
   hi DiffText guifg=NONE guibg=#f9f9c9 gui=NONE cterm=NONE
-  hi DiffDelete guifg=#f9c9c9 guibg=NONE gui=NONE cterm=NONE
-  hi SpellBad guifg=#ca1243 guibg=NONE guisp=#ca1243 gui=undercurl cterm=underline
-  hi SpellCap guifg=#2a871f guibg=NONE guisp=#2a871f gui=undercurl cterm=underline
-  hi SpellLocal guifg=#0184bc guibg=NONE guisp=#0184bc gui=undercurl cterm=underline
-  hi SpellRare guifg=#a626a4 guibg=NONE guisp=#a626a4 gui=undercurl cterm=underline
-  hi Identifier guifg=#2f6aea guibg=NONE gui=NONE cterm=NONE
-  hi Statement guifg=#F300FF guibg=NONE gui=NONE cterm=NONE
-  hi Constant guifg=#d75f00 guibg=NONE gui=NONE cterm=NONE
-  hi String guifg=#00DB2B guibg=NONE gui=NONE cterm=NONE
-  hi pythonFunction guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
-  hi method guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
-  hi FunctionCall guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
-  hi Function guifg=#2535FF guibg=NONE gui=NONE cterm=NONE
-  hi PreProc guifg=#F300FF guibg=NONE gui=NONE cterm=NONE
-  hi Special guifg=#0184bc guibg=NONE gui=NONE cterm=NONE
-  hi Tag guifg=#c18401 guibg=NONE gui=NONE cterm=NONE
-  hi Delimiter guifg=#986801 guibg=NONE gui=NONE cterm=NONE
-  hi Type guifg=#a626a4 guibg=NONE gui=NONE cterm=NONE
-  hi Directory guifg=#2f6aea guibg=NONE gui=bold cterm=bold
-  hi Comment guifg=#808080 guibg=NONE gui=NONE cterm=NONE
-  hi Conceal guifg=#808080 guibg=NONE gui=NONE cterm=NONE
-  hi Ignore guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi Title guifg=#ca1243 guibg=NONE gui=bold cterm=bold
-  hi qfError guifg=#d70000 guibg=NONE gui=NONE cterm=NONE
+  hi DiffDelete guifg=#f9c9c9 guibg=#F300FF gui=NONE cterm=NONE
+  hi SpellBad guifg=#ca1243 guibg=#F300FF guisp=#ca1243 gui=undercurl cterm=underline
+  hi SpellCap guifg=#2a871f guibg=#F300FF guisp=#2a871f gui=undercurl cterm=underline
+  hi SpellLocal guifg=#0184bc guibg=#F300FF guisp=#0184bc gui=undercurl cterm=underline
+  hi SpellRare guifg=#a626a4 guibg=#F300FF guisp=#a626a4 gui=undercurl cterm=underline
+  hi Identifier guifg=#2f6aea guibg=#F300FF gui=NONE cterm=NONE
+  hi Statement guifg=#F300FF guibg=#F300FF gui=NONE cterm=NONE
+  hi Constant guifg=#d75f00 guibg=#F300FF gui=NONE cterm=NONE
+  hi String guifg=#00DB2B guibg=#F300FF gui=NONE cterm=NONE
+  hi pythonFunction guifg=#FFCB6B guibg=#F300FF gui=NONE cterm=NONE
+  hi method guifg=#FFCB6B guibg=#F300FF gui=NONE cterm=NONE
+  hi FunctionCall guifg=#FFCB6B guibg=#F300FF gui=NONE cterm=NONE
+  hi Function guifg=#2535FF guibg=#F300FF gui=NONE cterm=NONE
+  hi PreProc guifg=#F300FF guibg=#F300FF gui=NONE cterm=NONE
+  hi Special guifg=#0184bc guibg=#F300FF gui=NONE cterm=NONE
+  hi Tag guifg=#c18401 guibg=#F300FF gui=NONE cterm=NONE
+  hi Delimiter guifg=#986801 guibg=#F300FF gui=NONE cterm=NONE
+  hi Type guifg=#a626a4 guibg=#F300FF gui=NONE cterm=NONE
+  hi Directory guifg=#2f6aea guibg=#F300FF gui=bold cterm=bold
+  hi Comment guifg=#808080 guibg=#F300FF gui=NONE cterm=NONE
+  hi Conceal guifg=#808080 guibg=#F300FF gui=NONE cterm=NONE
+  hi Ignore guifg=NONE guibg=#F300FF gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Title guifg=#ca1243 guibg=#F300FF gui=bold cterm=bold
+  hi qfError guifg=#d70000 guibg=#F300FF gui=NONE cterm=NONE
   hi! link colortemplateKey Statement
   hi! link colortemplateAttr String
   hi! link vimNotation Type
@@ -126,11 +126,11 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi! link gitCommitSummary Title
   hi! link cocErrorSign Type
   hi! link diffAdded String
-  hi diffRemoved guifg=#d70000 guibg=NONE gui=NONE cterm=NONE
-  hi asciidoctorOption guifg=#808080 guibg=NONE gui=NONE cterm=NONE
-  hi asciidoctorLiteralBlock guifg=#808080 guibg=NONE gui=NONE cterm=NONE
-  hi asciidoctorIndented guifg=#808080 guibg=NONE gui=NONE cterm=NONE
-  hi SelectDirectoryPrefix guifg=#808080 guibg=NONE gui=NONE cterm=NONE
+  hi SelectDirectoryPrefix guifg=#808080 guibg=#F300FF gui=NONE cterm=NONE
+  hi diffRemoved guifg=#d70000 guibg=#F300FF gui=NONE cterm=NONE
+  hi asciidoctorOption guifg=#808080 guibg=#F300FF gui=NONE cterm=NONE
+  hi asciidoctorLiteralBlock guifg=#808080 guibg=#F300FF gui=NONE cterm=NONE
+  hi asciidoctorIndented guifg=#808080 guibg=#F300FF gui=NONE cterm=NONE
   unlet s:t_Co
   finish
 endif
