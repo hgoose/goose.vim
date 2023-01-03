@@ -109,7 +109,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Function guifg=#45FFC8 guibg=NONE gui=NONE cterm=NONE
   hi PreProc guifg=#F300FF guibg=NONE gui=NONE cterm=NONE
   hi Special guifg=#0184bc guibg=NONE gui=NONE cterm=NONE
-  hi Tag guifg=#c18401 guibg=NONE gui=NONE cterm=NONE
+  hi Tag guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
   hi Delimiter guifg=#986801 guibg=NONE gui=NONE cterm=NONE
   hi Type guifg=#5CF1FF guibg=NONE gui=NONE cterm=NONE
   hi Directory guifg=#2f6aea guibg=NONE gui=bold cterm=bold
