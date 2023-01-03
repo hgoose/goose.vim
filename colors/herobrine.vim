@@ -20,8 +20,6 @@ syntax match method /\.\w*/
 
 " syntax match FunctionCall "\<\w\+\>"
 
-syntax match TextInsideParens /\v%(\w+%)/
-
 if (has('termguicolors') && &termguicolors) || has('gui_running')
   let g:terminal_ansi_colors = ['#000000', '#ca1243', '#2a871f', '#c18401',
         \ '#2f6aea', '#a626a4', '#0184bc', '#0f0f0f', '#808080', '#ca1243',
@@ -106,7 +104,6 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Constant guifg=#F9FF3C guibg=NONE gui=NONE cterm=NONE
   " hi String guifg=#00DB2B guibg=NONE gui=NONE cterm=NONE
   hi String guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
-  hi TextInsideParens guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
   hi pythonFunction guifg=#45FFC8 guibg=NONE gui=NONE cterm=NONE
   hi method guifg=#45FFC8 guibg=NONE gui=NONE cterm=NONE
   " hi FunctionCall guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
