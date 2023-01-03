@@ -20,7 +20,9 @@ call matchadd("Py", "\v\w+\s*\.\ze\(?<=\()[^)]*(?=\))", 101)
 
 " syntax match FunctionCall /\h\w*(/
 " syntax match FunctionCall /\h\w*(?=\s*(?!\)))/
-syntax match FunctionCall /\h\w*\(?=\s*(?!\))\//
+" syntax match FunctionCall /\h\w*\(?=\s*(?!\))\//
+syntax match FunctionCall /\h\w*\s*\(/
+
 
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
@@ -50,7 +52,6 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   else
     hi Normal guifg=#ffffff guibg=#0F0F0F gui=NONE cterm=NONE
   endif
-  hi FunctionCall
   hi EndOfBuffer guifg=#cacbcc guibg=NONE gui=NONE cterm=NONE
   hi Statusline guifg=#000000 guibg=#cacbcc gui=bold cterm=bold
   hi StatuslineNC guifg=#808080 guibg=#cacbcc gui=NONE cterm=NONE
