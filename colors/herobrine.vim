@@ -81,7 +81,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi MoreMsg guifg=#2a871f guibg=NONE gui=bold cterm=bold
   hi Question guifg=#2a871f guibg=NONE gui=bold cterm=bold
   hi Todo guifg=#ffffff guibg=#808080 gui=NONE cterm=NONE
-  hi MatchParen guifg=#ffffff guibg=#0184bc gui=NONE cterm=NONE
+  hi MatchParen guifg=#F9FF3C guibg=#0184bc gui=NONE cterm=NONE
   hi Search guifg=#ffffff guibg=#c18401 gui=NONE cterm=NONE
   hi IncSearch guifg=#ffffff guibg=#2a871f gui=NONE cterm=NONE
   hi WildMenu guifg=#ffffff guibg=#c18401 gui=NONE cterm=NONE
