@@ -21,7 +21,7 @@ call matchadd("Py", "\v\w+\s*\.\ze\(?<=\()[^)]*(?=\))", 101)
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
   let g:terminal_ansi_colors = ['#000000', '#ca1243', '#2a871f', '#c18401',
-        \ '#2f6aea', '#a626a4', '#0184bc', '#0f0f0f', '#808080', '#ca1243',
+        \ '#2f6aea', '#a626a4', '#0184bc', '#cacbcc', '#808080', '#ca1243',
         \ '#2a871f', '#c18401', '#2f6aea', '#a626a4', '#0184bc', '#ffffff']
   if has('nvim')
     let g:terminal_color_0 = '#000000'
@@ -31,7 +31,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     let g:terminal_color_4 = '#2f6aea'
     let g:terminal_color_5 = '#a626a4'
     let g:terminal_color_6 = '#0184bc'
-    let g:terminal_color_7 = '#0f0f0f'
+    let g:terminal_color_7 = '#cacbcc'
     let g:terminal_color_8 = '#808080'
     let g:terminal_color_9 = '#ca1243'
     let g:terminal_color_10 = '#2a871f'
@@ -46,23 +46,23 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   else
     hi Normal guifg=#ffffff guibg=#0F0F0F gui=NONE cterm=NONE
   endif
-  hi EndOfBuffer guifg=#0f0f0f guibg=NONE gui=NONE cterm=NONE
-  hi Statusline guifg=#000000 guibg=#0f0f0f gui=bold cterm=bold
-  hi StatuslineNC guifg=#808080 guibg=#0f0f0f gui=NONE cterm=NONE
-  hi StatuslineTerm guifg=#000000 guibg=#0f0f0f gui=bold cterm=bold
-  hi StatuslineTermNC guifg=#808080 guibg=#0f0f0f gui=NONE cterm=NONE
-  hi VertSplit guifg=#0f0f0f guibg=#cacbcc gui=NONE cterm=NONE
-  hi Pmenu guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
+  hi EndOfBuffer guifg=#cacbcc guibg=NONE gui=NONE cterm=NONE
+  hi Statusline guifg=#000000 guibg=#cacbcc gui=bold cterm=bold
+  hi StatuslineNC guifg=#808080 guibg=#cacbcc gui=NONE cterm=NONE
+  hi StatuslineTerm guifg=#000000 guibg=#cacbcc gui=bold cterm=bold
+  hi StatuslineTermNC guifg=#808080 guibg=#cacbcc gui=NONE cterm=NONE
+  hi VertSplit guifg=#cacbcc guibg=#cacbcc gui=NONE cterm=NONE
+  hi Pmenu guifg=NONE guibg=#cacbcc gui=NONE cterm=NONE
   hi PmenuSel guifg=#ffffff guibg=#c18401 gui=NONE cterm=NONE
-  hi PmenuSbar guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
+  hi PmenuSbar guifg=NONE guibg=#cacbcc gui=NONE cterm=NONE
   hi PmenuThumb guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
-  hi TabLine guifg=#808080 guibg=#0f0f0f gui=NONE cterm=NONE
-  hi TabLineFill guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
+  hi TabLine guifg=#808080 guibg=#cacbcc gui=NONE cterm=NONE
+  hi TabLineFill guifg=NONE guibg=#cacbcc gui=NONE cterm=NONE
   hi TabLineSel guifg=NONE guibg=#ffffff gui=NONE cterm=NONE
   hi ToolbarLine guifg=#ffffff guibg=#e0e4e4 gui=NONE cterm=NONE
-  hi ToolbarButton guifg=NONE guibg=#0f0f0f gui=bold cterm=bold
-  hi NonText guifg=#0f0f0f guibg=NONE gui=NONE cterm=NONE
-  hi SpecialKey guifg=#0f0f0f guibg=NONE gui=NONE cterm=NONE
+  hi ToolbarButton guifg=NONE guibg=#cacbcc gui=bold cterm=bold
+  hi NonText guifg=#cacbcc guibg=NONE gui=NONE cterm=NONE
+  hi SpecialKey guifg=#cacbcc guibg=NONE gui=NONE cterm=NONE
   hi Folded guifg=#808080 guibg=#e0e4e4 gui=NONE cterm=NONE
   hi Visual guifg=NONE guibg=#d0d9ea gui=NONE cterm=NONE
   hi VisualNOS guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
@@ -235,7 +235,7 @@ endif
 " Color: delimiter  #986801 94
 " Color: fg0        #000000 16
 " Color: bg0        #ffffff 231
-" Color: bg1        #0f0f0f 251
+" Color: bg1        #cacbcc 251
 " Color: folded     #e0e4e4 254
 " Color: cursorline #f4f4f4 254
 " Color: visual     #d0d9ea 153
