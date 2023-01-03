@@ -17,7 +17,10 @@ let s:t_Co = exists('&t_Co') && !empty(&t_Co) && &t_Co > 1 ? &t_Co : 2
 syntax on
 
 syntax match method /\.\w*/
+
 " syntax match FunctionCall "\<\w\+\>"
+
+syntax match TextInsideParens /\v%(\w+%)/
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
   let g:terminal_ansi_colors = ['#000000', '#ca1243', '#2a871f', '#c18401',
@@ -103,13 +106,14 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Constant guifg=#F9FF3C guibg=NONE gui=NONE cterm=NONE
   " hi String guifg=#00DB2B guibg=NONE gui=NONE cterm=NONE
   hi String guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
+  hi TextInsideParens guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
   hi pythonFunction guifg=#45FFC8 guibg=NONE gui=NONE cterm=NONE
   hi method guifg=#45FFC8 guibg=NONE gui=NONE cterm=NONE
   " hi FunctionCall guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
   hi Function guifg=#45FFC8 guibg=NONE gui=NONE cterm=NONE
   hi PreProc guifg=#F300FF guibg=NONE gui=NONE cterm=NONE
   hi Special guifg=#0184bc guibg=NONE gui=NONE cterm=NONE
-  hi Tag guifg=#c18401 guibg=NONE gui=NONE cterm=NONE
+  hi Tag guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
   hi Delimiter guifg=#986801 guibg=NONE gui=NONE cterm=NONE
   hi Type guifg=#5CF1FF guibg=NONE gui=NONE cterm=NONE
   hi Directory guifg=#2f6aea guibg=NONE gui=bold cterm=bold
