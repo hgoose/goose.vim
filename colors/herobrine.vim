@@ -17,7 +17,7 @@ let s:t_Co = exists('&t_Co') && !empty(&t_Co) && &t_Co > 1 ? &t_Co : 2
 syntax on
 
 syntax match method /\.\w*/
-syntax match FunctionCall "\<\w\+\>"
+" syntax match FunctionCall "\<\w\+\>"
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
   let g:terminal_ansi_colors = ['#000000', '#ca1243', '#2a871f', '#c18401',
