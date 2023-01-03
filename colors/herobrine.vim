@@ -16,6 +16,8 @@ let s:t_Co = exists('&t_Co') && !empty(&t_Co) && &t_Co > 1 ? &t_Co : 2
 
 syntax on
 
+syntax match method /\.\(?!\)/
+
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
   let g:terminal_ansi_colors = ['#000000', '#ca1243', '#2a871f', '#c18401',
@@ -102,10 +104,9 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Statement guifg=#F300FF guibg=NONE gui=NONE cterm=NONE
   hi Constant guifg=#d75f00 guibg=NONE gui=NONE cterm=NONE
   hi String guifg=#00DB2B guibg=NONE gui=NONE cterm=NONE
-  hi Py guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
   hi pythonFunction guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
+  hi method guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
   hi FunctionCall guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
-  hi PythonArg guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
   hi Function guifg=#2535FF guibg=NONE gui=NONE cterm=NONE
   hi PreProc guifg=#F300FF guibg=NONE gui=NONE cterm=NONE
   hi Special guifg=#0184bc guibg=NONE gui=NONE cterm=NONE
