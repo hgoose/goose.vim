@@ -57,8 +57,8 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi PmenuThumb guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
   hi TabLine guifg=#808080 guibg=#0f0f0f gui=NONE cterm=NONE
   hi TabLineFill guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
-  hi TabLineSel guifg=NONE guibg=#ffffff gui=NONE cterm=NONE
-  hi ToolbarLine guifg=#ffffff guibg=#e0e4e4 gui=NONE cterm=NONE
+  hi TabLineSel guifg=NONE guibg=#ff00ff gui=NONE cterm=NONE
+  hi ToolbarLine guifg=#ffffff guibg=#ff00ff gui=NONE cterm=NONE
   hi ToolbarButton guifg=NONE guibg=#0f0f0f gui=bold cterm=bold
   hi NonText guifg=#0f0f0f guibg=NONE gui=NONE cterm=NONE
   hi SpecialKey guifg=#0f0f0f guibg=NONE gui=NONE cterm=NONE
@@ -70,7 +70,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi CursorLine guifg=NONE guibg=NONE gui=NONE cterm=NONE
   hi CursorLineNr guifg=NONE guibg=NONE gui=NONE cterm=NONE
   hi CursorColumn guifg=NONE guibg=NONE gui=NONE cterm=NONE
-  hi QuickFixLine guifg=NONE guibg=#ff00ff gui=NONE cterm=NONE
+  hi QuickFixLine guifg=NONE guibg=#e0e4e4 gui=NONE cterm=NONE
   hi SignColumn guifg=#000000 guibg=#000000 gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
   hi Sign guifg=#000000 guibg=#000000 gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
   hi Underlined guifg=#2f6aea guibg=NONE gui=underline cterm=underline
@@ -85,7 +85,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Search guifg=#ffffff guibg=#c18401 gui=NONE cterm=NONE
   hi IncSearch guifg=#ffffff guibg=#2a871f gui=NONE cterm=NONE
   hi WildMenu guifg=#ffffff guibg=#c18401 gui=NONE cterm=NONE
-  hi ColorColumn guifg=NONE guibg=#ff00ff gui=NONE cterm=NONE
+  hi ColorColumn guifg=NONE guibg=#f4f4f4 gui=NONE cterm=NONE
   " hi Cursor guifg=#ffffff guibg=#000000 gui=NONE cterm=NONE
   hi Cursor guifg=#f300ff guibg=#000000 gui=NONE cterm=NONE
   hi lCursor guifg=#000000 guibg=#d75f00 gui=NONE cterm=NONE
