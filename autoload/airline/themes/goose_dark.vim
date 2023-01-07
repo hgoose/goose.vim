@@ -1,11 +1,4 @@
 " goose_dark vim-airline theme
-"
-" Copyright 2016. All rights reserved
-"
-" Code licensed under the MIT license
-" https://mit-license.org/
-"
-" @author Jonathan Simcoe <@jdsimcoe>
 
 " Color palette
 " let s:gui01 = "#2E2F31"
