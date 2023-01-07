@@ -70,7 +70,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi CursorLine guifg=NONE guibg=NONE gui=NONE cterm=NONE
   hi CursorLineNr guifg=NONE guibg=NONE gui=NONE cterm=NONE
   hi CursorColumn guifg=NONE guibg=NONE gui=NONE cterm=NONE
-  hi QuickFixLine guifg=NONE guibg=#e0e4e4 gui=NONE cterm=NONE
+  hi QuickFixLine guifg=NONE guibg=#ff00ff gui=NONE cterm=NONE
   hi SignColumn guifg=#000000 guibg=#000000 gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
   hi Sign guifg=#000000 guibg=#000000 gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
   hi Underlined guifg=#2f6aea guibg=NONE gui=underline cterm=underline
