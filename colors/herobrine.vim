@@ -50,15 +50,15 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi StatuslineNC guifg=#808080 guibg=#0f0f0f gui=NONE cterm=NONE
   hi StatuslineTerm guifg=#000000 guibg=#0f0f0f gui=bold cterm=bold
   hi StatuslineTermNC guifg=#808080 guibg=#0f0f0f gui=NONE cterm=NONE
-  hi VertSplit guifg=#0f0f0f guibg=#cacbcc gui=NONE cterm=NONE
+  hi VertSplit guifg=#0f0f0f guibg=#ff00ff gui=NONE cterm=NONE
   hi Pmenu guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
   hi PmenuSel guifg=#ffffff guibg=#000000 gui=NONE cterm=NONE
   hi PmenuSbar guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
   hi PmenuThumb guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
   hi TabLine guifg=#808080 guibg=#0f0f0f gui=NONE cterm=NONE
   hi TabLineFill guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
-  hi TabLineSel guifg=NONE guibg=#ff00ff gui=NONE cterm=NONE
-  hi ToolbarLine guifg=#ffffff guibg=#ff00ff gui=NONE cterm=NONE
+  hi TabLineSel guifg=NONE guibg=#ffffff gui=NONE cterm=NONE
+  hi ToolbarLine guifg=#ffffff guibg=#e0e4e4 gui=NONE cterm=NONE
   hi ToolbarButton guifg=NONE guibg=#0f0f0f gui=bold cterm=bold
   hi NonText guifg=#0f0f0f guibg=NONE gui=NONE cterm=NONE
   hi SpecialKey guifg=#0f0f0f guibg=NONE gui=NONE cterm=NONE
