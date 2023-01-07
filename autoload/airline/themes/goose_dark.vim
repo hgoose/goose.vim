@@ -5,7 +5,7 @@
 " let s:gui01 = "#0f0f0f"
 let s:gui01 = "#ff87ff"
 let s:gui02 = "#7800FF"
-let s:gui03 = "#FEF29E"
+let s:gui03 = "#FF00FF"
 let s:gui04 = "#7800FF"
 let s:gui05 = "#FF479F"
 let s:gui06 = "#45FFC8"
