@@ -57,12 +57,12 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi PmenuThumb guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
   hi TabLine guifg=#808080 guibg=#0f0f0f gui=NONE cterm=NONE
   hi TabLineFill guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
-  hi TabLineSel guifg=NONE guibg=#ffffff gui=NONE cterm=NONE
-  hi ToolbarLine guifg=#ffffff guibg=#e0e4e4 gui=NONE cterm=NONE
+  hi TabLineSel guifg=NONE guibg=#ff00ff gui=NONE cterm=NONE
+  hi ToolbarLine guifg=#ffffff guibg=#ff00ff gui=NONE cterm=NONE
   hi ToolbarButton guifg=NONE guibg=#0f0f0f gui=bold cterm=bold
   hi NonText guifg=#0f0f0f guibg=NONE gui=NONE cterm=NONE
   hi SpecialKey guifg=#0f0f0f guibg=NONE gui=NONE cterm=NONE
-  hi Folded guifg=#808080 guibg=#ff00ff gui=NONE cterm=NONE
+  hi Folded guifg=#808080 guibg=#e0e4e4 gui=NONE cterm=NONE
   hi Visual guifg=NONE guibg=#0184bc gui=NONE cterm=NONE
   hi VisualNOS guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
   hi LineNr guifg=#808080 guibg=NONE gui=NONE cterm=NONE
