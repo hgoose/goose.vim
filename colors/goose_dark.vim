@@ -1,14 +1,14 @@
-" Name:         goose-dark 
+" Name:         hgoose
 " Description:  Custom colorscheme
-" Author:       hgoose-dark 
-" Maintainer:   hgoose-dark 
-" License:      icense (see `:help license`)
+" Author:       hgoose
+" Maintainer:   hgoose
+" License:      license (see `:help license`)
 " Last Updated: 16.11.2020 22:10:24
 
 set background=dark
 
 hi clear
-let g:colors_name = 'goose-dark'
+let g:colors_name = 'goose_dark'
 
 let s:t_Co = exists('&t_Co') && !empty(&t_Co) && &t_Co > 1 ? &t_Co : 2
 
@@ -40,7 +40,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     let g:terminal_color_14 = '#0184bc'
     let g:terminal_color_15 = '#ffffff'
   endif
-  if get(g:, 'goose-dark_transp_bg', 0) && !has('gui_running')
+  if get(g:, 'goose_dark_transp_bg', 0) && !has('gui_running')
     hi Normal guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   else
     hi Normal guifg=#ffffff guibg=#0f0f0f gui=NONE cterm=NONE
