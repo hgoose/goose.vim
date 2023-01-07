@@ -2,8 +2,8 @@
 " Description:  Custom colorscheme
 " Author:       hgoose
 " Maintainer:   hgoose
-" License:      license (see `:help license`)
-" Last Updated: 16.11.2020 22:10:24
+" License:      vim license (see `:help license`)
+" Last Updated: Jan 06, 2023 
 
 set background=dark
 
