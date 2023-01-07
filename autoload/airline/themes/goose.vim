@@ -8,7 +8,8 @@
 " @author Jonathan Simcoe <@jdsimcoe>
 
 " Color palette
-let s:gui01 = "#2E2F31"
+" let s:gui01 = "#2E2F31"
+let s:gui01 = "#0f0f0f"
 let s:gui02 = "#5CF1FF"
 let s:gui03 = "#FEF29E"
 let s:gui04 = "#007AFF"
