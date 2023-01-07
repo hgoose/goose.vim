@@ -139,26 +139,3 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
 endif
 
 
-" Background: light
-" Color: comment    #808080 244
-" Color: constant   #d75f00 166
-" Color: string     #2a871f 28
-" Color: identifier #2f6aea 27
-" Color: statement  #ca1243 161
-" Color: preproc    #c18401 172
-" Color: type       #a626a4 127
-" Color: special    #0184bc 67
-" Color: delimiter  #986801 94
-" Color: fg0        #000000 16
-" Color: bg0        #ffffff 231
-" Color: bg1        #282828 251
-" Color: folded     #e0e4e4 254
-" Color: cursorline #f4f4f4 254
-" Color: visual     #d0d9ea 153
-" Color: error      #d70000 160
-" Color: diffadd    #c9f9c9 194
-" Color: difftext   #f9f9c9 222
-" Color: diffdelete #f9c9c9 224
-" Term colors: fg0     statement string preproc identifier type special bg1
-" Term colors: comment statement string preproc identifier type special bg0
-" vim: et ts=2 sw=2
