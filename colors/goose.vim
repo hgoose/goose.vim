@@ -1,4 +1,4 @@
-" Name:         Herobrine 
+" Name:         goose 
 " Description:  Custom colorscheme
 " Author:       hgoose 
 " Maintainer:   hgoose 
@@ -8,7 +8,7 @@
 set background=light
 
 hi clear
-let g:colors_name = 'herobrine'
+let g:colors_name = 'goose'
 
 let s:t_Co = exists('&t_Co') && !empty(&t_Co) && &t_Co > 1 ? &t_Co : 2
 
@@ -40,7 +40,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     let g:terminal_color_14 = '#0184bc'
     let g:terminal_color_15 = '#ffffff'
   endif
-  if get(g:, 'herobrine_transp_bg', 0) && !has('gui_running')
+  if get(g:, 'goose_transp_bg', 0) && !has('gui_running')
     hi Normal guifg=#000000 guibg=NONE gui=NONE cterm=NONE
   else
     hi Normal guifg=#ffffff guibg=#0f0f0f gui=NONE cterm=NONE
