@@ -119,15 +119,15 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Title guifg=#ca1243 guibg=NONE gui=bold cterm=bold
   hi qfError guifg=#d70000 guibg=NONE gui=NONE cterm=NONE
   hi! link colortemplateKey Statement
-  " hi! link colortemplateAttr String
-  " hi! link vimNotation Type
-  " hi! link vimFuncSID PreProc
-  " hi! link vimHiTerm Identifier
-  " hi! link helpNotVi Comment
-  " hi! link helpExample PreProc
-  " hi! link gitCommitSummary Title
-  " hi! link cocErrorSign Type
-  " hi! link diffAdded String
+  hi! link colortemplateAttr String
+  hi! link vimNotation Type
+  hi! link vimFuncSID PreProc
+  hi! link vimHiTerm Identifier
+  hi! link helpNotVi Comment
+  hi! link helpExample PreProc
+  hi! link gitCommitSummary Title
+  hi! link cocErrorSign Type
+  hi! link diffAdded String
   hi diffRemoved guifg=#d70000 guibg=NONE gui=NONE cterm=NONE
   hi asciidoctorOption guifg=#808080 guibg=NONE gui=NONE cterm=NONE
   hi asciidoctorLiteralBlock guifg=#808080 guibg=NONE gui=NONE cterm=NONE
