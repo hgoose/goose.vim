@@ -77,7 +77,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Error guifg=#ffffff guibg=#d70000 gui=NONE cterm=NONE
   hi ErrorMsg guifg=#ffffff guibg=#d70000 gui=NONE cterm=NONE
   hi ModeMsg guifg=#000000 guibg=NONE gui=bold cterm=bold
-  " hi WarningMsg guifg=#c18401 guibg=NONE gui=bold cterm=bold
+  hi WarningMsg guifg=#c18401 guibg=NONE gui=bold cterm=bold
   hi MoreMsg guifg=#2a871f guibg=NONE gui=bold cterm=bold
   hi Question guifg=#2a871f guibg=NONE gui=bold cterm=bold
   hi Todo guifg=#ffffff guibg=#808080 gui=NONE cterm=NONE
@@ -102,7 +102,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Statement guifg=#F300FF guibg=NONE gui=NONE cterm=NONE
   hi Constant guifg=#F9FF3C guibg=NONE gui=NONE cterm=NONE
   " hi String guifg=#00DB2B guibg=NONE gui=NONE cterm=NONE
-  " hi String guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
+  hi String guifg=#FFCB6B guibg=#0f0f0f gui=NONE cterm=NONE
   hi pythonFunction guifg=#45FFC8 guibg=NONE gui=NONE cterm=NONE
   hi method guifg=#45FFC8 guibg=NONE gui=NONE cterm=NONE
   " hi FunctionCall guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
