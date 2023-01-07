@@ -4,7 +4,7 @@
 
 #### About
 Made by [hgoose](https://github.com/hgoose), an elegent theme to fullfill your vim/neovim colorscheme.
-Shipped with two variants, `dark` and `light`, and  modiffied colors for the airline status bar. [Click here to get airline for vim](https://github.com/vim-airline/vim-airline)
+Shipped with two variants, `dark` and `light`, and  modified colors for the airline status bar. [Click here to get airline for vim](https://github.com/vim-airline/vim-airline)
 
 #### File Types
 Originally designed for python files but should be equipped for any filetype
