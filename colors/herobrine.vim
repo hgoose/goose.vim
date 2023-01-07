@@ -5,7 +5,7 @@
 " License:      icense (see `:help license`)
 " Last Updated: 16.11.2020 22:10:24
 
-set background=dark
+set background=light
 
 hi clear
 let g:colors_name = 'herobrine'
