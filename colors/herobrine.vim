@@ -62,7 +62,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi ToolbarButton guifg=NONE guibg=#0f0f0f gui=bold cterm=bold
   hi NonText guifg=#0f0f0f guibg=NONE gui=NONE cterm=NONE
   hi SpecialKey guifg=#0f0f0f guibg=NONE gui=NONE cterm=NONE
-  hi Folded guifg=#808080 guibg=#e0e4e4 gui=NONE cterm=NONE
+  hi Folded guifg=#808080 guibg=#ff00ff gui=NONE cterm=NONE
   hi Visual guifg=NONE guibg=#0184bc gui=NONE cterm=NONE
   hi VisualNOS guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
   hi LineNr guifg=#808080 guibg=NONE gui=NONE cterm=NONE
@@ -118,7 +118,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Ignore guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
   hi Title guifg=#ca1243 guibg=NONE gui=bold cterm=bold
   hi qfError guifg=#d70000 guibg=NONE gui=NONE cterm=NONE
-  " hi! link colortemplateKey Statement
+  hi! link colortemplateKey Statement
   " hi! link colortemplateAttr String
   " hi! link vimNotation Type
   " hi! link vimFuncSID PreProc
