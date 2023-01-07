@@ -50,7 +50,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi StatuslineNC guifg=#808080 guibg=#0f0f0f gui=NONE cterm=NONE
   hi StatuslineTerm guifg=#000000 guibg=#0f0f0f gui=bold cterm=bold
   hi StatuslineTermNC guifg=#808080 guibg=#0f0f0f gui=NONE cterm=NONE
-  hi VertSplit guifg=#0f0f0f guibg=#ff00ff gui=NONE cterm=NONE
+  hi VertSplit guifg=#0f0f0f guibg=#cacbcc gui=NONE cterm=NONE
   hi Pmenu guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
   hi PmenuSel guifg=#ffffff guibg=#000000 gui=NONE cterm=NONE
   hi PmenuSbar guifg=NONE guibg=#0f0f0f gui=NONE cterm=NONE
@@ -85,7 +85,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Search guifg=#ffffff guibg=#c18401 gui=NONE cterm=NONE
   hi IncSearch guifg=#ffffff guibg=#2a871f gui=NONE cterm=NONE
   hi WildMenu guifg=#ffffff guibg=#c18401 gui=NONE cterm=NONE
-  hi ColorColumn guifg=NONE guibg=#f4f4f4 gui=NONE cterm=NONE
+  hi ColorColumn guifg=NONE guibg=#ff00ff gui=NONE cterm=NONE
   " hi Cursor guifg=#ffffff guibg=#000000 gui=NONE cterm=NONE
   hi Cursor guifg=#f300ff guibg=#000000 gui=NONE cterm=NONE
   hi lCursor guifg=#000000 guibg=#d75f00 gui=NONE cterm=NONE
