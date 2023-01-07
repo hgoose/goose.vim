@@ -9,7 +9,8 @@
 
 " Color palette
 " let s:gui01 = "#2E2F31"
-let s:gui01 = "#0f0f0f"
+" let s:gui01 = "#0f0f0f"
+let s:gui01 = "#ff87ff"
 let s:gui02 = "#7800FF"
 let s:gui03 = "#FEF29E"
 let s:gui04 = "#7800FF"
