@@ -1,5 +1,5 @@
+" Name:         hgoose's goose_light 
 " Description:  Custom colorscheme
-" Name:         goose_light 
 " Author:       hgoose
 " Maintainer:   hgoose
 " License:      vim license (see `:help license`)

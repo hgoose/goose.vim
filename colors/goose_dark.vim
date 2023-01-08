@@ -1,4 +1,4 @@
-" Name:         hgoose
+" Name:         hgoose's goose_dark
 " Description:  Custom colorscheme
 " Author:       hgoose
 " Maintainer:   hgoose
