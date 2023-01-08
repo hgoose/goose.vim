@@ -1,0 +1,50 @@
+Discord 0.0.22
+
+(discord:8429): Gtk-WARNING **: 14:56:37.020: Theme parsing error: gtk.css:7190:16: Junk at end of value for color
+
+(discord:8429): Gtk-WARNING **: 14:56:37.020: Theme parsing error: gtk.css:7237:15: unknown value for property
+
+(discord:8429): Gtk-WARNING **: 14:56:37.020: Theme parsing error: gtk.css:7284:5: 'boder' is not a valid property name
+
+(discord:8429): Gtk-WARNING **: 14:56:37.020: Theme parsing error: gtk.css:7329:0: Expected a valid selector
+
+(discord:8429): Gtk-WARNING **: 14:56:37.027: Theme parsing error: gtk.css:10832:13: Not using units is deprecated. Assuming 'px'.
+
+(discord:8429): Gtk-WARNING **: 14:56:37.027: Theme parsing error: gtk.css:10874:17: Not using units is deprecated. Assuming 'px'.
+
+(discord:8429): Gtk-WARNING **: 14:56:37.027: Theme parsing error: gtk.css:10940:17: Not using units is deprecated. Assuming 'px'.
+Starting app.
+Starting updater.
+[Modules] Modules initializing
+[Modules] Distribution: remote
+[Modules] Host updates: enabled
+[Modules] Module updates: enabled
+[Modules] Module install path: /home/catsoup/.config/discord/0.0.22/modules
+[Modules] Module installed file path: /home/catsoup/.config/discord/0.0.22/modules/installed.json
+[Modules] Module download path: /home/catsoup/.config/discord/0.0.22/modules/pending
+[Modules] No updates to install
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+[Modules] No module updates available.
+Optional module ./ElectronTestRpc was not included.
+WEIGHT /home/catsoup/.config/discord/0.0.22/modules/discord_krisp/NC_small_8k.thw
+WEIGHT /home/catsoup/.config/discord/0.0.22/modules/discord_krisp/NC_small_16k.thw
+WEIGHT /home/catsoup/.config/discord/0.0.22/modules/discord_krisp/c6.s.f.27f1a3.thw
+WEIGHT /home/catsoup/.config/discord/0.0.22/modules/discord_krisp/VAD_weight.thw
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+[Modules] No module updates available.
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+[Modules] No module updates available.
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+[Modules] No module updates available.
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+[Modules] No module updates available.
