@@ -1,6 +1,29 @@
-<p align="center">
-	<img src="https://i.imgur.com/Du3bAJL.jpeg">
-</p>
+<!-- <p align="center"> -->
+<!-- 	<img src="https://i.imgur.com/Du3bAJL.jpeg"> -->
+<!-- </p> -->
+
+<div align="center">
+
+# Goose.vim
+
+### Dark
+
+<img src="https://i.imgur.com/OlxmmMK.png">
+
+### Light
+
+<img src="https://i.imgur.com/QCL8j9q.png">
+
+### Night
+
+<img src="https://i.imgur.com/DflC8pH.png">
+
+### Purp
+
+<img src="https://i.imgur.com/FWwA3ka.png">
+
+</div>
+
 
 #### About
 Made by [hgoose](https://github.com/hgoose), an elegent theme to fullfill your vim/neovim colorscheme.
