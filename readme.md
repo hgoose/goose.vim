@@ -82,3 +82,5 @@ with init.lua
 ```lua
 vim.cmd("colorscheme goose_dark/light")
 ```
+
+
