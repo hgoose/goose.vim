@@ -99,14 +99,15 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi SpellRare guifg=#07D7E5 guibg=NONE guisp=#a626a4 gui=undercurl cterm=underline
   hi Identifier guifg=#E5E5E5 guibg=NONE gui=NONE cterm=NONE
   hi Statement guifg=#822cd6 guibg=NONE gui=NONE cterm=NONE
-  hi Constant guifg=#F9FF3C guibg=NONE gui=NONE cterm=NONE
+  hi conditional guifg=#fb4934 guibg=NONE gui=NONE cterm=NONE
+  hi Constant guifg=#ff87ff guibg=NONE gui=NONE cterm=NONE
   " hi String guifg=#00DB2B guibg=NONE gui=NONE cterm=NONE
   hi String guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
   " hi FunctionCall guifg=#FFCB6B guibg=NONE gui=NONE cterm=NONE
   hi pythonFunction guifg=#fb4934 guibg=NONE gui=NONE cterm=NONE
   hi Function guifg=#3DC055 guibg=NONE gui=NONE cterm=NONE
   hi PreProc guifg=#E166E1 guibg=NONE gui=NONE cterm=NONE
-  hi Special guifg=#0184bc guibg=NONE gui=NONE cterm=NONE
+  hi Special guifg=#ff87ff guibg=NONE gui=NONE cterm=NONE
   hi Tag guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
   hi Delimiter guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
   hi Type guifg=#5CF1FF guibg=NONE gui=NONE cterm=NONE
