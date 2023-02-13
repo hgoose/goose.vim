@@ -48,3 +48,4 @@ WEIGHT /home/catsoup/.config/discord/0.0.22/modules/discord_krisp/VAD_weight.thw
 [Modules] Host is up to date.
 [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
 [Modules] No module updates available.
+[ 02/13/2023 11:17:59.973 parse_config_libconfig WARN ] The refresh-rate option has been deprecated. Please remove it from your configuration file. If you encounter any problems without this feature, please feel free to open a bug report
